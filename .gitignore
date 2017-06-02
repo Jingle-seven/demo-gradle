@@ -1,0 +1,22 @@
+bin/
+
+*/bin/
+
+target/
+build/
+logs/
+*.gradle/
+# eclipse ignore
+.settings/
+.project
+.idea/
+.classpath
+*.lock
+*.bak
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
