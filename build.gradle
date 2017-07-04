@@ -15,7 +15,7 @@ dependencies {
     //也可简写为此形式
     compile "org.codehaus.groovy:groovy-all:2.4.4"
 }
-
+// gradle -q fuck 执行此task, -q屏蔽多余信息
 task fuck << {
     println("fuck the gradle")
 }
